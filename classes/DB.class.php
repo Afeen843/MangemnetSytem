@@ -42,7 +42,7 @@ class DB
         string $databaseName = 'tekhqs'
     )
     {
-        $this->limit = 2;
+        $this->limit = 5;
         $this->_databaseHost = $host;
         $this->_databaseUser = $user;
         $this->_databasePass = $pass;

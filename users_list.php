@@ -6,7 +6,7 @@ include_once(__DIR__ . '/config.in.php');
     <button style="width: 15%"> Add user</button>
 </a>
 <?php
-$limit=$_POST['limit'];
+$limit = $_POST['limit'] ?? '';
 
 ?>
 <form method="post" action="">
