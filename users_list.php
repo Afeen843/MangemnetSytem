@@ -1,5 +1,6 @@
 <?php
 include_once(__DIR__ . '/config.in.php');
+
 ?>
 <div class="container"><h1> &#9755; Admin Users</h1></div><br>
 <a href="admin.php?page=users&action=add_user">

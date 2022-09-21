@@ -41,7 +41,7 @@ $menuItems = [
         'id' => 'our_customers',
         'url_key' => 'customers',
         'title' => 'Our Customers',
-        'url' => 'admin.php?page=customers&action=show_customers',
+        'url' => 'admin.php?page=customers&action=show_customers&data=1',
         'target' => '_parent'
     ],
 
