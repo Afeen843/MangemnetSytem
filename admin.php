@@ -1,5 +1,12 @@
 <?php
 include_once(__DIR__ . '/config.in.php');
+include_once(__DIR__.'/classes/Session.php');
+
+if(!$_SESSION["login"]){
+    echo 'not logged in';
+    header("Location: index.php");
+    exit;
+}
 ?>
 
 <!DOCTYPE html>
@@ -66,7 +73,7 @@ $menuItems = [
 
 <body>
 <div id="header"><br>
-    <div style="text-align: left; padding-left:20px"><b>TEKHQS MANGEMENT SYETEM </b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+    <div style="text-align: left; padding-left:20px"><b>TEKHQS MANGEMENT SYETEM </b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a class="logout" href="logout.php">logout</a>
 
     </div>
 </div>

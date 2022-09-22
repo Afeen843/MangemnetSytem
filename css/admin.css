@@ -2,7 +2,13 @@
 .center {
     text-align: center;
 }
-
+.logout{
+    padding: 2px 4px;
+    color: white;
+}
+a{
+    color: #be1313;
+}
 .pagination {
     display: inline;
 }
